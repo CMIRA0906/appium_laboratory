@@ -1,2 +1,2 @@
 # appium_laboratory
-laboratorio bdd de pruebas con appium usando cucumber
+laboratorio de pruebas con appium usando cucumber
