@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'co.com.prueba.cr'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.4'
+    compile group: 'info.cukes', name: 'cucumber-java', version: '1.2.4'
+    compile group: 'io.appium', name: 'java-client', version: '4.1.2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+
+
+}
