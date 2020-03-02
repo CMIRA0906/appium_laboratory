@@ -22,6 +22,7 @@ public class MobileDriver {
         DesiredCapabilities caps = new DesiredCapabilities();
 
         caps.setCapability("device", "Samsung Galaxy S8");
+         caps.setCapability("device", "Samsung Galaxy S8");
         caps.setCapability("os_version", "7.0");
         caps.setCapability("project", "My First Project");
         caps.setCapability("build", "My First Build");
