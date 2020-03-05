@@ -1,5 +1,15 @@
 plugins {
     id 'java'
+     id "org.sonarqube" version "2.8"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "appium-lab"
+    property "sonar.organization", "cmira0906-github"
+    property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.login", "d2301bcb0082ddd99e930dac1a1ee715757fb797"
+  }
 }
 
 group 'co.com.prueba.cr'
